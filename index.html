@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sword Art Online</title>
-    
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
 <link rel="stylesheet" href="indexestilos.css">
  <body class="grid-container">
     <div class="logo">
@@ -12,37 +13,59 @@
 
     </div>
     <header class="header">
-        <h1>Bienvenido</h1>
+        <h1>Bienvenido</h1>          
+        </iframe>
+
+        <iframe width="560" height="315"
+        src="https://www.youtube.com/embed/PitTKUpgkv0"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen>
+</iframe>
     </header>
     <div class="Mensaje">
         <h2>Noticias</h2>
-    </div>
-    <div class="main-der">
-        <h3>Ultimos lanzamientos hasta el momento.</h3>
-    <div class="banner">
-        <div class="capa">
-            <div class="contenido">
-                <h3>Se ha lanzado el volumen 4 del manga "Sword Art Online: Unital Ring"
+         <h3>Ultimos lanzamientos hasta el momento.</h3>
+                         <h3>Se ha lanzado el volumen 4 del manga "Sword Art Online: Unital Ring"
                      el cual adapta el arco "Unital Ring" de la novela ligera.</h3>
-            </div>
-        </div>
-</head>
-<body>
-  <div class="card">
+                      <div class="card">
   <img src="UnitalRing.webp" alt="Avatar" style="width:30%">
   <div class="container">
     <h4><b>SAO Unital Ring</b></h4>
     <p>Nota: La imagen solo demuestra el vol 1.</p>
   </div>
 </div>
-<hr>
-<h3>A la vez se ha anunciado el lanzamiento del videojuego "Fractured Daydream" para Nintendo Switch</P></h3>
+</head>
+<body>
 
 <style>
 body {
-  background-image: url('OIP.webp');
-  background-repeat: no-repeat;
+    background-image: url('OIP.webp');
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 </style>
 </body>
+
+<div class="loader"></div>
+<style>
+    .loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+</style>
 </html>
